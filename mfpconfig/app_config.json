@@ -65,5 +65,15 @@
       "allowedScope": "clients:read-public clients:read-protected update",
       "displayName": "SampleClient"
     }
-  ]
+  ],
+    "appPublish": {
+        "android": {
+            "release": {
+                "keystore": "dab-android.keystore",
+            	"storePassword": "mfp123",
+            	"alias": "dab-key",
+            	"password" : "mfp123"
+            }
+    	}
+    }
 }
